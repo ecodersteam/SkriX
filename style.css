@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.skrix-header{
+    text-align: center;
+}
+.fictusRANK {
+    text-align: center;
+    animation: showoff 2s ease;
+}
+@keyframes showoff {
+    from {
+        transform: translateX(1000px);
+    }
+}
+.linkerinstall {
+    width: 180;
+    height: 47px;
+    background-color: rgb(18, 106, 237);
+    color: white;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: larger;
+    position: static;
+}
+.warn {
+    font-size: small;
+    color: red;
+}
+#rblxscriptarea{
+    font-size: large;
+    text-align: center;
+}
+.execute {
+    width: 180;
+    height: 47px;
+    background-color: rgb(18, 106, 237);
+    color: white;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: larger;
+}
